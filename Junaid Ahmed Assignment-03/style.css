@@ -1,0 +1,114 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+.permanent-marker-regular {
+  font-family: "Permanent Marker",cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: myfont;
+  src: url(./fonts/GretoonHighlight-8gMB.ttf);
+}
+#header {
+  background-color: #f868fd;
+  padding-top: 2px;
+  padding-bottom: 0%;
+  text-align: center;
+  font-family: myfont;
+  font-size: 2em;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  position: relative;
+  overflow: hidden;
+  text-shadow: 5px 5px 4px  rgba(0,0,0,0.3);
+
+}
+#header:hover{
+  background-color: #e9b7f3;
+
+}
+#book {
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 0em;
+  padding-bottom: 2px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+#div-s{
+  position: sticky;
+  top: 0;
+}
+#navbar {
+    overflow: hidden;
+    background-color: #333;
+  }
+nav{
+    position:sticky;
+    top: 0;
+  }
+
+#navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+#navbar a:hover {
+    background-color: #e9b7f3;
+    color: black;
+  }
+.body {
+  background-color: #727074;
+  margin: 0;
+  justify-content:center ;
+  align-items: center;
+}
+
+.alphabets{
+  /* display: flex; */
+  justify-content: center;
+  background-color:#f868fd;
+  width: 600px;
+  border-radius: 25px;
+  box-shadow:8px 8px 5px  rgba(0,0,0,0.4);
+  padding-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-family: cursive;
+  margin-bottom: 45px;
+ 
+
+}
+
+.ABC {
+  font-size: 5em;
+
+  margin-top: 5px;
+  margin-bottom: 10px;
+  text-shadow: 9px 6px 4px  rgba(0,0,0,0.3);
+}
+
+.alphabets:hover{
+  background-color: #252326;
+  color: rgb(245, 237, 237);
+
+}
+.for{
+  font-size: 2em;
+  margin-top: 1px;
+  margin-bottom: 5px;
+}
+#div-arrow{
+position: fixed;
+width: 100%;
+bottom: 150px;
+left: 50px;
+}
+
+#div-arrow:hover{
+opacity: 20%;
+}
