@@ -1,83 +1,616 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./style.css">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-  <title>Salt & Paper Clone</title>
-</head>
-<body>
-  <nav>
- <div class="navbar">
-  <div class="hamburger-menu" id="hamburger-menu">
-    <div class="line">a</div>
-    <div class="line">b</div>
-    <div class="line">c</div>
-  </div>
-  <div class="nav-bar-img">
-    <img src="https://images-beta.tossdown.com/site/65b73fb7-2706-4440-87b9-9555fcd0ba80.webp
-" alt="logo" width="166px" class="logo">  
-   </div>
- 
-    <ul>
-      <div class="nav-bar1">
-      <li>Home</li>
-      <li>About us</li>
-      <li>Publications</li>
-      <li>Feedback</li>
-      <li><button class="franchise-btn">Get a franchise</button></li>
-      <li><button class="OrderOnline-btn">Order Online <span><img src="./images/arrow_forward_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.png" width="20px" height="20px" class="arrow"></span></button></li>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <title>Salt & Paper Clone</title>
+  </head>
+  <body>
+    <nav>
+      <div class="navbar">
+        <div class="hamburger-menu" id="hamburger-menu">
+          <div class="line">a</div>
+          <div class="line">b</div>
+          <div class="line">c</div>
+        </div>
+        <div class="nav-bar-img">
+          <img
+            src="https://images-beta.tossdown.com/site/65b73fb7-2706-4440-87b9-9555fcd0ba80.webp
+"
+            alt="logo"
+            width="166px"
+            class="logo"
+          />
+        </div>
+
+        <ul>
+          <div class="nav-bar1">
+            <li>Home</li>
+            <li>About us</li>
+            <li>Publications</li>
+            <li>Feedback</li>
+            <li><button class="franchise-btn">Get a franchise</button></li>
+            <li>
+              <button class="OrderOnline-btn">
+                Order Online
+                <span
+                  ><img
+                    src="./images/arrow_forward_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.png"
+                    width="20px"
+                    height="20px"
+                    class="arrow"
+                /></span>
+              </button>
+            </li>
+          </div>
+        </ul>
+        <div>
+          <button class="OrderOnline-btn2">
+            <span
+              ><img
+                src="./images/arrow_forward_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.png"
+                width="20px"
+                height="20px"
+                class="arrow2" /></span
+            >Order Online
+          </button>
+        </div>
+      </div>
+    </nav>
+    <div
+      id="carouselExampleSlidesOnly"
+      class="carousel slide slide1"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active formTab">
+          <img
+            src="./images/ac51af11-090c-49e8-9296-472de72fc5cb.webp"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item formTab">
+          <img
+            src="./images/b09ef44d-de2e-4a81-b34b-2f921866ab0b.webp"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item formTab">
+          <img
+            src="./images/cb3c2d22-7957-4c35-a140-367b8464f7a3.webp"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item formTab">
+          <img
+            src="./images/d47575d1-42d9-43f7-84b2-f11adea5f8eb.webp"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+      </div>
     </div>
-     </ul>
-   <div><button class="OrderOnline-btn2"><span><img src="./images/arrow_forward_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.png" width="20px" height="20px" class="arrow2"></span>Order Online</button></div>
- </div>
-  </nav>
-  <div id="carouselExampleSlidesOnly" class="carousel slide slide1" data-bs-ride="carousel">
-    <div class="carousel-inner">
-      <div class="carousel-item active formTab">
-        <img src="./images/ac51af11-090c-49e8-9296-472de72fc5cb.webp" class="d-block w-100 " alt="...">
-      </div>
-      <div class="carousel-item formTab">
-        <img src="./images/b09ef44d-de2e-4a81-b34b-2f921866ab0b.webp" class="d-block w-100" alt="...">
-      </div>
-      <div class="carousel-item formTab">
-        <img src="./images/cb3c2d22-7957-4c35-a140-367b8464f7a3.webp" class="d-block w-100" alt="...">
-      </div>
-      <div class="carousel-item formTab">
-        <img src="./images/d47575d1-42d9-43f7-84b2-f11adea5f8eb.webp" class="d-block w-100" alt="...">
+    <div
+      id="carouselExampleSlidesOnl"
+      class="carousel slide slpic"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="./images/moile-pics.webp"
+            class="d-block w-100"
+            id="formob"
+            alt="..."
+          />
+        </div>
       </div>
     </div>
-  </div>
-  <div id="carouselExampleSlidesOnl" class="carousel slide slpic" data-bs-ride="carousel">
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="./images/moile-pics.webp" class="d-block w-100" id="formob" alt="...">
+    <div class="secondDiv">
+
+      <div class="Schild1">
+        <h2 class="text1">
+          Welcome to <span class="majorHeadig">Salt'n Pepper</span>
+        </h2>
+        <h2 class="text2">Restaurants! Our Brands</h2>
+        <p class="text3">
+          Please click our brands below for further information, reservations or
+          to order online!
+        </p>
       </div>
-    </div>
-  </div>
-  <div class="secondDiv">
-    <div  class="Schild1">
-      <h2 class="text1">Welcome to <span class="majorHeadig">Salt'n Pepper</span></h2>
-      <h2 class="text2">Restaurants! Our Brands</h2>
-      <p class="text3">Please click our brands below for further information, reservations or to order online!</p>
+
       <div class="Schild2">
         <div class="divScard">
-          <img src="./images/Scard1.webp" alt="">
+          <img src="./images/Scard1.webp" alt="" />
           <button class="cardbtn">Order Now</button>
         </div>
         <div class="divScard">
-          <img src="./images/Scard2.webp" alt="">
+          <img src="./images/Scard2.webp" alt="" />
           <button class="cardbtn">Order Now</button>
         </div>
         <div class="divScard">
-          <img src="./images/Scard3.webp" alt="">
+          <img src="./images/Scard3.webp" alt="" />
           <button class="cardbtn">Order Now</button>
         </div>
-       
       </div>
     </div>
-  </div>
-</body>
+    <div class="third_div">
+
+      <div class="Tchild1">
+        <h2 class="text1">
+        <span class="majorHeadig">Salt'n Pepper</span>
+        </h2>
+        <h2 class="text2 textRF">Restaurant Franchises</h2>
+        <p class="text3">
+          Each of our franchises are individually managed. For further details, kindly contact them directly.
+        </p>
+      </div>
+
+      <div class="Tchild2">
+        <div class="div1row">
+          <div class="col-xl-5 col-lg-5 col-md-6">
+            <div class="h-100 isbdiv">
+               <p class="red_isb_p">I S L A M A B A D</p>
+               <h2 class="text1 text2span">
+                <span class="majorHeadig sp1">Salt'n Pepper</span> <span class="text2 textRF sp2">Restaurant</span>
+              </h2>
+                <p class="text3 location">
+                  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M480-480q33 0 56.5-23.5T560-560q0-33-23.5-56.5T480-640q-33 0-56.5 23.5T400-560q0 33 23.5 56.5T480-480Zm0 294q122-112 181-203.5T720-552q0-109-69.5-178.5T480-800q-101 0-170.5 69.5T240-552q0 71 59 162.5T480-186Zm0 106Q319-217 239.5-334.5T160-552q0-150 96.5-239T480-880q127 0 223.5 89T800-552q0 100-79.5 217.5T480-80Zm0-480Z"/></svg> Plot# 55, Shabbir Plaza, Blue Area, F-6, Islamabad
+                </p>
+                <p class="text3 cell">
+                  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M798-120q-125 0-247-54.5T329-329Q229-429 174.5-551T120-798q0-18 12-30t30-12h162q14 0 25 9.5t13 22.5l26 140q2 16-1 27t-11 19l-97 98q20 37 47.5 71.5T387-386q31 31 65 57.5t72 48.5l94-94q9-9 23.5-13.5T670-390l138 28q14 4 23 14.5t9 23.5v162q0 18-12 30t-30 12ZM241-600l66-66-17-94h-89q5 41 14 81t26 79Zm358 358q39 17 79.5 27t81.5 13v-88l-94-19-67 67ZM241-600Zm358 358Z"/></svg>  Ph: 051-2604904-6
+                </p>
+                <button class="gt_direc">Get Direction <span
+                  ><img
+                    src="./images/arrow_forward_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.png"
+                    width="20px"
+                    height="20px"
+                    class="arrow"
+                    style="color:#ED1C24;"
+                /></span></button>
+                
+            </div>
+          </div>
+          <div class="col-xl-5 col-lg-5 col-md-6">
+            <div class="h-100">
+              <img class="divimg" src="./images/img1.webp">
+            </div>
+          </div>
+        </div>
+
+        <div class="div1row butr2">
+
+          <div class="col-xl-5 col-lg-5 col-md-6">
+            <div class="h-100">
+              <img class="divimg" src="./images/img2.webp">
+            </div>
+          </div>
+
+          <div class="col-xl-5 col-lg-5 col-md-6">
+            <div class="h-100 isbdiv">
+               <p class="red_isb_p">F A I S A L A B A D</p>
+               <h2 class="text1 text2span">
+                <span class="majorHeadig sp1">Salt'n Pepper</span> <span class="text2 textRF sp2">Restaurant</span>
+              </h2>
+                <p class="text3 location">
+                  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M480-480q33 0 56.5-23.5T560-560q0-33-23.5-56.5T480-640q-33 0-56.5 23.5T400-560q0 33 23.5 56.5T480-480Zm0 294q122-112 181-203.5T720-552q0-109-69.5-178.5T480-800q-101 0-170.5 69.5T240-552q0 71 59 162.5T480-186Zm0 106Q319-217 239.5-334.5T160-552q0-150 96.5-239T480-880q127 0 223.5 89T800-552q0 100-79.5 217.5T480-80Zm0-480Z"/></svg>4-Kohinoor City, Faisalabad
+                </p>
+                <p class="text3 cell">
+                  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M798-120q-125 0-247-54.5T329-329Q229-429 174.5-551T120-798q0-18 12-30t30-12h162q14 0 25 9.5t13 22.5l26 140q2 16-1 27t-11 19l-97 98q20 37 47.5 71.5T387-386q31 31 65 57.5t72 48.5l94-94q9-9 23.5-13.5T670-390l138 28q14 4 23 14.5t9 23.5v162q0 18-12 30t-30 12ZM241-600l66-66-17-94h-89q5 41 14 81t26 79Zm358 358q39 17 79.5 27t81.5 13v-88l-94-19-67 67ZM241-600Zm358 358Z"/></svg>  Ph: 041-8711404
+                </p>
+                <button class="gt_direc">Get Direction <span
+                  ><img
+                    src="./images/arrow_forward_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.png"
+                    width="20px"
+                    height="20px"
+                    class="arrow"
+                    style="color:#ED1C24;"
+                /></span></button>
+                
+            </div>
+          </div>
+          
+        </div>
+
+        <div class="div1row">
+          <div class="col-xl-5 col-lg-5 col-md-6">
+            <div class="h-100 isbdiv">
+               <p class="red_isb_p">B A H A W A L P U R</p>
+               <h2 class="text1 text2span">
+                <span class="majorHeadig sp1">Salt'n Pepper</span> <span class="text2 textRF sp2">Restaurant</span>
+              </h2>
+                <p class="text3 location">
+                  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M480-480q33 0 56.5-23.5T560-560q0-33-23.5-56.5T480-640q-33 0-56.5 23.5T400-560q0 33 23.5 56.5T480-480Zm0 294q122-112 181-203.5T720-552q0-109-69.5-178.5T480-800q-101 0-170.5 69.5T240-552q0 71 59 162.5T480-186Zm0 106Q319-217 239.5-334.5T160-552q0-150 96.5-239T480-880q127 0 223.5 89T800-552q0 100-79.5 217.5T480-80Zm0-480Z"/></svg> D.C Chowk, opposite Commissioner House, Bahawalpur
+                </p>
+                <p class="text3 cell">
+                  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M798-120q-125 0-247-54.5T329-329Q229-429 174.5-551T120-798q0-18 12-30t30-12h162q14 0 25 9.5t13 22.5l26 140q2 16-1 27t-11 19l-97 98q20 37 47.5 71.5T387-386q31 31 65 57.5t72 48.5l94-94q9-9 23.5-13.5T670-390l138 28q14 4 23 14.5t9 23.5v162q0 18-12 30t-30 12ZM241-600l66-66-17-94h-89q5 41 14 81t26 79Zm358 358q39 17 79.5 27t81.5 13v-88l-94-19-67 67ZM241-600Zm358 358Z"/></svg>  Ph: 062-2740271-2
+                </p>
+                <button class="gt_direc">Get Direction <span
+                  ><img
+                    src="./images/arrow_forward_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.png"
+                    width="20px"
+                    height="20px"
+                    class="arrow"
+                    style="color:#ED1C24;"
+                /></span></button>
+                
+            </div>
+          </div>
+          <div class="col-xl-5 col-lg-5 col-md-6">
+            <div class="h-100">
+              <img class="divimg" src="./images/img3.webp">
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="fourthDiv">
+
+      <div class="Tchild1">
+        <h2 class="text1">
+        <span class="majorHeadig">Salt'n Pepper</span>
+        </h2>
+        <h2 class="text2 textRF" style="margin-bottom: 30px;">Express Franchises</h2>
+      </div>
+
+      <div class="row RW">
+
+        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6">
+          <div class="h-100">
+            <img src="./images/img4.webp" class="fimg">
+            <div class="h-100 isbdiv Tceterdiv">
+              <p class="red_isb_p red_headigs">E M P O R I U M  M A L L</p>
+              <h2 class="text1 text2span">
+               <span class="majorHeadig sp1">Salt'n Pepper</span> <span class="text2 textRF sp2">Express</span>
+             </h2>
+               <p class="text3 location">
+                 <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M480-480q33 0 56.5-23.5T560-560q0-33-23.5-56.5T480-640q-33 0-56.5 23.5T400-560q0 33 23.5 56.5T480-480Zm0 294q122-112 181-203.5T720-552q0-109-69.5-178.5T480-800q-101 0-170.5 69.5T240-552q0 71 59 162.5T480-186Zm0 106Q319-217 239.5-334.5T160-552q0-150 96.5-239T480-880q127 0 223.5 89T800-552q0 100-79.5 217.5T480-80Zm0-480Z"/></svg> 2nd Floor, Food Court Emporium Mall
+               </p>
+               <p class="text3 cell">
+                 <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M798-120q-125 0-247-54.5T329-329Q229-429 174.5-551T120-798q0-18 12-30t30-12h162q14 0 25 9.5t13 22.5l26 140q2 16-1 27t-11 19l-97 98q20 37 47.5 71.5T387-386q31 31 65 57.5t72 48.5l94-94q9-9 23.5-13.5T670-390l138 28q14 4 23 14.5t9 23.5v162q0 18-12 30t-30 12ZM241-600l66-66-17-94h-89q5 41 14 81t26 79Zm358 358q39 17 79.5 27t81.5 13v-88l-94-19-67 67ZM241-600Zm358 358Z"/></svg>  Ph: 0311-1100947
+               </p>
+               <button class="gt_direc">Get Direction <span
+                 ><img
+                   src="./images/arrow_forward_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.png"
+                   width="20px"
+                   height="20px"
+                   class="arrow"
+                   style="color:#ED1C24;"
+               /></span></button>
+               
+           </div>
+          </div>
+        </div>
+        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6">
+          <div class="h-100">
+            <img src="./images/img5.webp" class="fimg">
+            <div class="h-100 isbdiv Tceterdiv">
+              <p class="red_isb_p red_headigs">G U J R A W A L A</p>
+              <h2 class="text1 text2span">
+               <span class="majorHeadig sp1">Salt'n Pepper</span> <span class="text2 textRF sp2">Express</span>
+             </h2>
+               <p class="text3 location">
+                 <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M480-480q33 0 56.5-23.5T560-560q0-33-23.5-56.5T480-640q-33 0-56.5 23.5T400-560q0 33 23.5 56.5T480-480Zm0 294q122-112 181-203.5T720-552q0-109-69.5-178.5T480-800q-101 0-170.5 69.5T240-552q0 71 59 162.5T480-186Zm0 106Q319-217 239.5-334.5T160-552q0-150 96.5-239T480-880q127 0 223.5 89T800-552q0 100-79.5 217.5T480-80Zm0-480Z"/></svg>  Sixteenth Avenue Mall
+               </p>
+               <p class="text3 cell">
+                 <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M798-120q-125 0-247-54.5T329-329Q229-429 174.5-551T120-798q0-18 12-30t30-12h162q14 0 25 9.5t13 22.5l26 140q2 16-1 27t-11 19l-97 98q20 37 47.5 71.5T387-386q31 31 65 57.5t72 48.5l94-94q9-9 23.5-13.5T670-390l138 28q14 4 23 14.5t9 23.5v162q0 18-12 30t-30 12ZM241-600l66-66-17-94h-89q5 41 14 81t26 79Zm358 358q39 17 79.5 27t81.5 13v-88l-94-19-67 67ZM241-600Zm358 358Z"/></svg>  Ph: 0300-6024000
+               </p>
+              <br>
+               <button class="gt_direc">Get Direction <span
+                 ><img
+                   src="./images/arrow_forward_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.png"
+                   width="20px"
+                   height="20px"
+                   class="arrow"
+                   style="color:#ED1C24;"
+               /></span></button>
+               
+           </div>
+          </div>
+        </div>
+        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6">
+          <div class="h-100">
+            <img src="./images/img6.webp" class="fimg">
+            <div class="h-100 isbdiv Tceterdiv">
+              <p class="red_isb_p red_headigs">S A R G O D H A</p>
+              <h2 class="text1 text2span">
+               <span class="majorHeadig sp1">Salt'n Pepper</span> <span class="text2 textRF sp2">Express</span>
+             </h2>
+               <p class="text3 location">
+                 <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M480-480q33 0 56.5-23.5T560-560q0-33-23.5-56.5T480-640q-33 0-56.5 23.5T400-560q0 33 23.5 56.5T480-480Zm0 294q122-112 181-203.5T720-552q0-109-69.5-178.5T480-800q-101 0-170.5 69.5T240-552q0 71 59 162.5T480-186Zm0 106Q319-217 239.5-334.5T160-552q0-150 96.5-239T480-880q127 0 223.5 89T800-552q0 100-79.5 217.5T480-80Zm0-480Z"/></svg> Opposite Sargodha Arts Council Babar Road
+               </p>
+               <p class="text3 cell">
+                 <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M798-120q-125 0-247-54.5T329-329Q229-429 174.5-551T120-798q0-18 12-30t30-12h162q14 0 25 9.5t13 22.5l26 140q2 16-1 27t-11 19l-97 98q20 37 47.5 71.5T387-386q31 31 65 57.5t72 48.5l94-94q9-9 23.5-13.5T670-390l138 28q14 4 23 14.5t9 23.5v162q0 18-12 30t-30 12ZM241-600l66-66-17-94h-89q5 41 14 81t26 79Zm358 358q39 17 79.5 27t81.5 13v-88l-94-19-67 67ZM241-600Zm358 358Z"/></svg>  Ph: 048-3725500
+               </p>
+               <button class="gt_direc">Get Direction <span
+                 ><img
+                   src="./images/arrow_forward_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.png"
+                   width="20px"
+                   height="20px"
+                   class="arrow"
+                   style="color:#ED1C24;"
+               /></span></button>
+               
+           </div>
+          </div>
+        </div>
+        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6">
+          <div class="h-100">
+            <img src="./images/img7.webp" class="fimg">
+            <div class="h-100 isbdiv Tceterdiv">
+              <p class="red_isb_p red_headigs">J H E L U M</p>
+              <h2 class="text1 text2span">
+               <span class="majorHeadig sp1">Salt'n Pepper</span> <span class="text2 textRF sp2">Express</span>
+             </h2>
+               <p class="text3 location">
+                 <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M480-480q33 0 56.5-23.5T560-560q0-33-23.5-56.5T480-640q-33 0-56.5 23.5T400-560q0 33 23.5 56.5T480-480Zm0 294q122-112 181-203.5T720-552q0-109-69.5-178.5T480-800q-101 0-170.5 69.5T240-552q0 71 59 162.5T480-186Zm0 106Q319-217 239.5-334.5T160-552q0-150 96.5-239T480-880q127 0 223.5 89T800-552q0 100-79.5 217.5T480-80Zm0-480Z"/></svg>Opposite Dancing Fountain Gallery 2 Citi Housing Jhelum,
+               </p>
+               <p class="text3 cell">
+                 <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M798-120q-125 0-247-54.5T329-329Q229-429 174.5-551T120-798q0-18 12-30t30-12h162q14 0 25 9.5t13 22.5l26 140q2 16-1 27t-11 19l-97 98q20 37 47.5 71.5T387-386q31 31 65 57.5t72 48.5l94-94q9-9 23.5-13.5T670-390l138 28q14 4 23 14.5t9 23.5v162q0 18-12 30t-30 12ZM241-600l66-66-17-94h-89q5 41 14 81t26 79Zm358 358q39 17 79.5 27t81.5 13v-88l-94-19-67 67ZM241-600Zm358 358Z"/></svg>Ph: 0307-7675555
+               </p>
+               <button class="gt_direc">Get Direction <span
+                 ><img
+                   src="./images/arrow_forward_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.png"
+                   width="20px"
+                   height="20px"
+                   class="arrow"
+                   style="color:#ED1C24;"
+               /></span></button>
+               
+           </div>
+          </div>
+        </div>
+        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6">
+          <div class="h-100">
+            <img src="./images/img8.webp" class="fimg">
+            <div class="h-100 isbdiv Tceterdiv">
+              <p class="red_isb_p red_headigs">F A I S A L  T O W N</p>
+              <h2 class="text1 text2span">
+               <span class="majorHeadig sp1">Salt'n Pepper</span> <span class="text2 textRF sp2">Express</span>
+             </h2>
+               <p class="text3 location">
+                 <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M480-480q33 0 56.5-23.5T560-560q0-33-23.5-56.5T480-640q-33 0-56.5 23.5T400-560q0 33 23.5 56.5T480-480Zm0 294q122-112 181-203.5T720-552q0-109-69.5-178.5T480-800q-101 0-170.5 69.5T240-552q0 71 59 162.5T480-186Zm0 106Q319-217 239.5-334.5T160-552q0-150 96.5-239T480-880q127 0 223.5 89T800-552q0 100-79.5 217.5T480-80Zm0-480Z"/></svg> 34-C Abul Hassan Isfahani Rd, Faisal Town,Lahore
+               </p>
+               <p class="text3 cell">
+                 <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M798-120q-125 0-247-54.5T329-329Q229-429 174.5-551T120-798q0-18 12-30t30-12h162q14 0 25 9.5t13 22.5l26 140q2 16-1 27t-11 19l-97 98q20 37 47.5 71.5T387-386q31 31 65 57.5t72 48.5l94-94q9-9 23.5-13.5T670-390l138 28q14 4 23 14.5t9 23.5v162q0 18-12 30t-30 12ZM241-600l66-66-17-94h-89q5 41 14 81t26 79Zm358 358q39 17 79.5 27t81.5 13v-88l-94-19-67 67ZM241-600Zm358 358Z"/></svg>Ph: 042-111-100-678
+               </p>
+               <button class="gt_direc">Get Direction <span
+                 ><img
+                   src="./images/arrow_forward_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.png"
+                   width="20px"
+                   height="20px"
+                   class="arrow"
+                   style="color:#ED1C24;"
+               /></span></button>
+               
+           </div>
+          </div>
+        </div>
+        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6">
+          <div class="h-100">
+            <img src="./images/img9.webp" class="fimg">
+            <div class="h-100 isbdiv Tceterdiv">
+              <p class="red_isb_p red_headigs">D H A</p>
+              <h2 class="text1 text2span">
+               <span class="majorHeadig sp1">Salt'n Pepper</span> <span class="text2 textRF sp2">Express</span>
+             </h2>
+               <p class="text3 location">
+                 <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M480-480q33 0 56.5-23.5T560-560q0-33-23.5-56.5T480-640q-33 0-56.5 23.5T400-560q0 33 23.5 56.5T480-480Zm0 294q122-112 181-203.5T720-552q0-109-69.5-178.5T480-800q-101 0-170.5 69.5T240-552q0 71 59 162.5T480-186Zm0 106Q319-217 239.5-334.5T160-552q0-150 96.5-239T480-880q127 0 223.5 89T800-552q0 100-79.5 217.5T480-80Zm0-480Z"/></svg>93-Y Phase III, DHA,Lahore
+               </p>
+               <p class="text3 cell">
+                 <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M798-120q-125 0-247-54.5T329-329Q229-429 174.5-551T120-798q0-18 12-30t30-12h162q14 0 25 9.5t13 22.5l26 140q2 16-1 27t-11 19l-97 98q20 37 47.5 71.5T387-386q31 31 65 57.5t72 48.5l94-94q9-9 23.5-13.5T670-390l138 28q14 4 23 14.5t9 23.5v162q0 18-12 30t-30 12ZM241-600l66-66-17-94h-89q5 41 14 81t26 79Zm358 358q39 17 79.5 27t81.5 13v-88l-94-19-67 67ZM241-600Zm358 358Z"/></svg>Ph: 042-111-100-678
+               </p>
+               <br>
+               <button class="gt_direc">Get Direction <span
+                 ><img
+                   src="./images/arrow_forward_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.png"
+                   width="20px"
+                   height="20px"
+                   class="arrow"
+                   style="color:#ED1C24;"
+               /></span></button>
+               
+           </div>
+          </div>
+        </div>
+        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6">
+          <div class="h-100">
+            <img src="./images/img10.webp" class="fimg">
+            <div class="h-100 isbdiv Tceterdiv">
+              <p class="red_isb_p red_headigs">B A H R I A  T O W N</p>
+              <h2 class="text1 text2span">
+               <span class="majorHeadig sp1">Salt'n Pepper</span> <span class="text2 textRF sp2">Express</span>
+             </h2>
+               <p class="text3 location">
+                 <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M480-480q33 0 56.5-23.5T560-560q0-33-23.5-56.5T480-640q-33 0-56.5 23.5T400-560q0 33 23.5 56.5T480-480Zm0 294q122-112 181-203.5T720-552q0-109-69.5-178.5T480-800q-101 0-170.5 69.5T240-552q0 71 59 162.5T480-186Zm0 106Q319-217 239.5-334.5T160-552q0-150 96.5-239T480-880q127 0 223.5 89T800-552q0 100-79.5 217.5T480-80Zm0-480Z"/></svg>Arwa Heights Building 19 Nishtar Block, Sector E, Bahria Town Lahore
+               </p>
+               <p class="text3 cell">
+                 <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M798-120q-125 0-247-54.5T329-329Q229-429 174.5-551T120-798q0-18 12-30t30-12h162q14 0 25 9.5t13 22.5l26 140q2 16-1 27t-11 19l-97 98q20 37 47.5 71.5T387-386q31 31 65 57.5t72 48.5l94-94q9-9 23.5-13.5T670-390l138 28q14 4 23 14.5t9 23.5v162q0 18-12 30t-30 12ZM241-600l66-66-17-94h-89q5 41 14 81t26 79Zm358 358q39 17 79.5 27t81.5 13v-88l-94-19-67 67ZM241-600Zm358 358Z"/></svg> Ph: 042-111-100-678
+               </p>
+               <button class="gt_direc">Get Direction <span
+                 ><img
+                   src="./images/arrow_forward_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.png"
+                   width="20px"
+                   height="20px"
+                   class="arrow"
+                   style="color:#ED1C24;"
+               /></span></button>
+               
+           </div>
+          </div>
+        </div>
+        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6">
+          <div class="h-100">
+            <img src="./images/img11.webp" class="fimg">
+            <div class="h-100 isbdiv Tceterdiv">
+              <p class="red_isb_p red_headigs">G U J A R  K H A N</p>
+              <h2 class="text1 text2span">
+               <span class="majorHeadig sp1">Salt'n Pepper</span> <span class="text2 textRF sp2">Express</span>
+             </h2>
+               <p class="text3 location">
+                 <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M480-480q33 0 56.5-23.5T560-560q0-33-23.5-56.5T480-640q-33 0-56.5 23.5T400-560q0 33 23.5 56.5T480-480Zm0 294q122-112 181-203.5T720-552q0-109-69.5-178.5T480-800q-101 0-170.5 69.5T240-552q0 71 59 162.5T480-186Zm0 106Q319-217 239.5-334.5T160-552q0-150 96.5-239T480-880q127 0 223.5 89T800-552q0 100-79.5 217.5T480-80Zm0-480Z"/></svg>  New Metro City Gujar Khan
+               </p>
+               <p class="text3 cell">
+                 <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M798-120q-125 0-247-54.5T329-329Q229-429 174.5-551T120-798q0-18 12-30t30-12h162q14 0 25 9.5t13 22.5l26 140q2 16-1 27t-11 19l-97 98q20 37 47.5 71.5T387-386q31 31 65 57.5t72 48.5l94-94q9-9 23.5-13.5T670-390l138 28q14 4 23 14.5t9 23.5v162q0 18-12 30t-30 12ZM241-600l66-66-17-94h-89q5 41 14 81t26 79Zm358 358q39 17 79.5 27t81.5 13v-88l-94-19-67 67ZM241-600Zm358 358Z"/></svg>Ph: 0321-1114962
+               </p>
+               <br>
+               <button class="gt_direc">Get Direction <span
+                 ><img
+                   src="./images/arrow_forward_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.png"
+                   width="20px"
+                   height="20px"
+                   class="arrow"
+                   style="color:#ED1C24;"
+               /></span></button>
+               
+           </div>
+          </div>
+        </div>
+        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6">
+          <div class="h-100">
+            <img src="./images/img12.webp" class="fimg">
+            <div class="h-100 isbdiv Tceterdiv">
+              <p class="red_isb_p red_headigs">L A H O R E</p>
+              <h2 class="text1 text2span">
+               <span class="majorHeadig sp1">Salt'n Pepper</span> <span class="text2 textRF sp2">Express</span>
+             </h2>
+               <p class="text3 location">
+                 <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M480-480q33 0 56.5-23.5T560-560q0-33-23.5-56.5T480-640q-33 0-56.5 23.5T400-560q0 33 23.5 56.5T480-480Zm0 294q122-112 181-203.5T720-552q0-109-69.5-178.5T480-800q-101 0-170.5 69.5T240-552q0 71 59 162.5T480-186Zm0 106Q319-217 239.5-334.5T160-552q0-150 96.5-239T480-880q127 0 223.5 89T800-552q0 100-79.5 217.5T480-80Zm0-480Z"/></svg>Shop no.5, Arcade Block, Fortress Stadium, Lahore
+               </p>
+               <p class="text3 cell">
+                 <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M798-120q-125 0-247-54.5T329-329Q229-429 174.5-551T120-798q0-18 12-30t30-12h162q14 0 25 9.5t13 22.5l26 140q2 16-1 27t-11 19l-97 98q20 37 47.5 71.5T387-386q31 31 65 57.5t72 48.5l94-94q9-9 23.5-13.5T670-390l138 28q14 4 23 14.5t9 23.5v162q0 18-12 30t-30 12ZM241-600l66-66-17-94h-89q5 41 14 81t26 79Zm358 358q39 17 79.5 27t81.5 13v-88l-94-19-67 67ZM241-600Zm358 358Z"/></svg>Ph: 042-366-23-100
+               </p>
+               <button class="gt_direc">Get Direction <span
+                 ><img
+                   src="./images/arrow_forward_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.png"
+                   width="20px"
+                   height="20px"
+                   class="arrow"
+                   style="color:#ED1C24;"
+               /></span></button>
+               
+           </div>
+          </div>
+        </div>
+        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6">
+          <div class="h-100">
+            <img src="./images/img13.webp" class="fimg">
+            <div class="h-100 isbdiv Tceterdiv">
+              <p class="red_isb_p red_headigs">G U J R A T</p>
+              <h2 class="text1 text2span">
+               <span class="majorHeadig sp1">Salt'n Pepper</span> <span class="text2 textRF sp2">Express</span>
+             </h2>
+               <p class="text3 location">
+                 <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M480-480q33 0 56.5-23.5T560-560q0-33-23.5-56.5T480-640q-33 0-56.5 23.5T400-560q0 33 23.5 56.5T480-480Zm0 294q122-112 181-203.5T720-552q0-109-69.5-178.5T480-800q-101 0-170.5 69.5T240-552q0 71 59 162.5T480-186Zm0 106Q319-217 239.5-334.5T160-552q0-150 96.5-239T480-880q127 0 223.5 89T800-552q0 100-79.5 217.5T480-80Zm0-480Z"/></svg>Service Mor, Gujrat
+               </p>
+               <p class="text3 cell">
+                 <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M798-120q-125 0-247-54.5T329-329Q229-429 174.5-551T120-798q0-18 12-30t30-12h162q14 0 25 9.5t13 22.5l26 140q2 16-1 27t-11 19l-97 98q20 37 47.5 71.5T387-386q31 31 65 57.5t72 48.5l94-94q9-9 23.5-13.5T670-390l138 28q14 4 23 14.5t9 23.5v162q0 18-12 30t-30 12ZM241-600l66-66-17-94h-89q5 41 14 81t26 79Zm358 358q39 17 79.5 27t81.5 13v-88l-94-19-67 67ZM241-600Zm358 358Z"/></svg> Ph: 0311-1124600
+               </p>
+               <br>
+               <button class="gt_direc">Get Direction <span
+                 ><img
+                   src="./images/arrow_forward_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.png"
+                   width="20px"
+                   height="20px"
+                   class="arrow"
+                   style="color:#ED1C24;"
+               /></span></button>
+               
+           </div>
+          </div>
+        </div>
+        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6">
+          <div class="h-100">
+            <img src="./images/img14.webp" class="fimg">
+            <div class="h-100 isbdiv Tceterdiv">
+              <p class="red_isb_p red_headigs">S A H I W A L</p>
+              <h2 class="text1 text2span">
+               <span class="majorHeadig sp1">Salt'n Pepper</span> <span class="text2 textRF sp2">Express</span>
+             </h2>
+               <p class="text3 location">
+                 <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M480-480q33 0 56.5-23.5T560-560q0-33-23.5-56.5T480-640q-33 0-56.5 23.5T400-560q0 33 23.5 56.5T480-480Zm0 294q122-112 181-203.5T720-552q0-109-69.5-178.5T480-800q-101 0-170.5 69.5T240-552q0 71 59 162.5T480-186Zm0 106Q319-217 239.5-334.5T160-552q0-150 96.5-239T480-880q127 0 223.5 89T800-552q0 100-79.5 217.5T480-80Zm0-480Z"/></svg>Opposite Main Gate Police Line, Sahiwal
+               </p>
+               <p class="text3 cell">
+                 <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M798-120q-125 0-247-54.5T329-329Q229-429 174.5-551T120-798q0-18 12-30t30-12h162q14 0 25 9.5t13 22.5l26 140q2 16-1 27t-11 19l-97 98q20 37 47.5 71.5T387-386q31 31 65 57.5t72 48.5l94-94q9-9 23.5-13.5T670-390l138 28q14 4 23 14.5t9 23.5v162q0 18-12 30t-30 12ZM241-600l66-66-17-94h-89q5 41 14 81t26 79Zm358 358q39 17 79.5 27t81.5 13v-88l-94-19-67 67ZM241-600Zm358 358Z"/></svg>Ph: 040-4515485
+               </p>
+               <button class="gt_direc">Get Direction <span
+                 ><img
+                   src="./images/arrow_forward_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.png"
+                   width="20px"
+                   height="20px"
+                   class="arrow"
+                   style="color:#ED1C24;"
+               /></span></button>
+               
+           </div>
+          </div>
+        </div>
+      
+      </div>
+      </div>
+
+      <div class="fifth_div">
+
+        <div class="Tchild1">
+          <h2 class="text1">
+          <span class="majorHeadig">Salt'n Pepper</span>
+          </h2>
+          <h2 class="text2 textRF" style="margin-bottom: 40px;">Village Franchise</h2>
+        </div>
+        <div class="Tchild2">
+          <div class="div1row">
+            <div class="col-xl-5 col-lg-5 col-md-6">
+              <div class="h-100">
+                <img class="divimg" src="./images/img15.webp">
+              </div>
+            </div>
+            <div class="col-xl-5 col-lg-5 col-md-6">
+              <div class="h-100 isbdiv">
+                 <p class="red_isb_p">G U J R A W A L A</p>
+                 <h2 class="text1 text2span">
+                  <span class="majorHeadig sp1">Salt'n Pepper</span> <span class="text2 textRF sp2">Village</span>
+                </h2>
+                  <p class="text3 location">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M480-480q33 0 56.5-23.5T560-560q0-33-23.5-56.5T480-640q-33 0-56.5 23.5T400-560q0 33 23.5 56.5T480-480Zm0 294q122-112 181-203.5T720-552q0-109-69.5-178.5T480-800q-101 0-170.5 69.5T240-552q0 71 59 162.5T480-186Zm0 106Q319-217 239.5-334.5T160-552q0-150 96.5-239T480-880q127 0 223.5 89T800-552q0 100-79.5 217.5T480-80Zm0-480Z"/></svg> Adjacent to Rida Marquees /DHA Main Gate, GT Road Gujranwala Cantt
+                  </p>
+                  <p class="text3 cell">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M798-120q-125 0-247-54.5T329-329Q229-429 174.5-551T120-798q0-18 12-30t30-12h162q14 0 25 9.5t13 22.5l26 140q2 16-1 27t-11 19l-97 98q20 37 47.5 71.5T387-386q31 31 65 57.5t72 48.5l94-94q9-9 23.5-13.5T670-390l138 28q14 4 23 14.5t9 23.5v162q0 18-12 30t-30 12ZM241-600l66-66-17-94h-89q5 41 14 81t26 79Zm358 358q39 17 79.5 27t81.5 13v-88l-94-19-67 67ZM241-600Zm358 358Z"/></svg>  Ph: 055-3884500 l ,055-3880400
+                  </p>
+                  <button class="gt_direc" style="background-color: #28a745; border: none; padding: 10px;">Get Direction <span
+                    ><img
+                      src="./images/arrow_forward_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.png"
+                      width="20px"
+                      height="20px"
+                      class="arrow"
+                      style="color:#ED1C24;"
+                  /></span></button>
+                  
+              </div>
+            </div>
+           
+          </div>
+          
+        </div>
+  
+      </div>
+   
+  </body>
 </html>
