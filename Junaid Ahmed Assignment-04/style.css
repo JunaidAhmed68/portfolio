@@ -49,8 +49,8 @@ h2{
   justify-content: center;
   align-items: center;
   background-color: #fff;
-  width: 400px;
-  height: 350px;
+  width: 370px;
+  height: 320px;
   box-shadow: 0px 2px 9px 0px rgba(71, 71,71, 0.33);
   border-radius: 10px;
   padding: 10px 15px 24px;
@@ -65,8 +65,8 @@ form{
 .input{
   width: 100%;
   margin-bottom: 15px;
-  padding: 19px 10px;
-  font-size: 18px;
+  padding: 15px 10px;
+  font-size: 16px;
   box-sizing: border-box;
   border: 1px solid rgb(217, 217, 217);
   border-radius: 6px;
@@ -84,15 +84,19 @@ form{
   border-radius: 6px;
   width: 100%;
   margin-bottom: 16px;
-  padding: 19px 10px;
-  font-size: 18px;
+  padding: 15px 10px;
+  font-size: 16px;
   font-weight: bold;
 }
 
 #login_button:hover{
   cursor: pointer;
 }
-
+.fp{
+  color: #0866ff;
+  font-size: 14px;
+  font-family: Helvetica, sans-serif;
+}
 form a{
   text-decoration: none;
   color: #3398ca;
@@ -106,8 +110,8 @@ form a{
   border: none;
   border-radius: 6px;
   margin-bottom: 15px;
-  padding: 17px;
-  font-size: 18px;
+  padding: 15px;
+  font-size: 14px;
   font-weight: bold;
 }
 
@@ -266,7 +270,31 @@ hr{
 @media screen and (max-width: 780px){
   .main_div{
     width: 650px;
-   }
+    padding-top:0px;
+}
+#logo{
+  height: 77px;
+  margin-left:-8px;
+}
+h2{
+  line-height: 18px;
+  font-size: 18px;
+}
+.under_right_div{
+  width: 320px;
+  height: 270px;
+  padding: 10px 15px 24px;
+}
+.input{
+  padding: 10px 10px;
+  font-size: 18px;
+}
+#login_button{
+  padding: 10px 10px;
+}
+#create_button{
+  padding: 10px;
+}
 }
 /* @media screen and (min-width: 1023px) {
   .right_div {
