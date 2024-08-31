@@ -9,7 +9,6 @@
      align-items: center;
      justify-content: center;
      position: fixed;
-     justify-content:center;
      column-gap: 9dvh;
      width: 100%;
      top: 0;
@@ -22,7 +21,7 @@
  }
  nav ul li{
     text-align: center; 
-    list-style: none; 
+    list-style-type: none; 
     display: inline;
     display: flex;
     justify-content: space-between;
@@ -40,7 +39,6 @@ cursor: pointer;
  }
  
  .pic1 {
-     /* width: 100%; */
      background-color: #F5F5F7;
      text-align: center;
      padding: 80px;
@@ -211,7 +209,6 @@ cursor: pointer;
     margin-right: 10px;
     column-gap: 10px;
     margin-bottom: 10px;
-    flex-wrap: wrap;
 
 }
  /* ################################1##################################################################################### */
@@ -370,7 +367,6 @@ cursor: pointer;
     margin-left: 10px;
     margin-right: 10px;
     column-gap: 10px;
-    flex-wrap: wrap;
 
 }
  /* ################################1##################################################################################### */
@@ -529,7 +525,6 @@ cursor: pointer;
     margin-right: 10px;
     column-gap: 10px;
     margin-bottom: 10px;
-    flex-wrap: wrap;
 }
  /* ################################1##################################################################################### */
 

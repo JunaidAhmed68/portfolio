@@ -1,0 +1,195 @@
+body{
+  background-color:  rgb(246, 248, 252);
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  width: 100%;
+  font-style: normal;
+}
+header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 12px;
+  padding-left: 1px;
+}
+header div{
+  display: flex;
+  align-items: center;
+}
+.pic1{
+  width: 26px;
+  padding: 0px 20px;
+}
+.top-middle{
+  border-radius: 50px;
+  width: 650px;
+  height: 45px;
+  padding: 0px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(234, 241, 251);
+  margin: 0px 10px;
+}
+.top-middle-inside{
+  width: 100%;
+}
+.pic2{
+  width: 18px;
+}
+.input-style{
+  height: 35px;
+  border: none;
+  width: 100%;
+  background-color: rgb(234, 241, 251);
+  padding-left: 10px;
+}
+.input-style:focus{
+  outline: none;
+}
+.input-style::placeholder{
+  font-size: 15px;
+}
+.top-right{
+  gap: 18px;
+}
+.top-right img{
+  width: 26px;
+}
+.circle-pic{
+  border-radius: 50%;
+}
+
+
+
+
+@media screen and (max-width:700px) {
+ 
+header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+}
+.pic1{
+  width: 17.5px;
+  padding: 0;
+  padding-right: 10px;
+}
+.pic11{
+  width: 65px;
+}
+.top-middle{
+  border-radius: 50px;
+  width: 300px;
+  height: 35px;
+  padding: 0px 6.5px;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(234, 241, 251);
+}
+.top-middle-inside{
+  width: 100%;
+}
+.pic2{
+  width: 15px;
+}
+.input-style{
+  height: 35px;
+  border: none;
+  width: 100%;
+  background-color: rgb(234, 241, 251);
+  padding-left: 10px;
+}
+.input-style:focus{
+  outline: none;
+}
+.input-style::placeholder{
+  font-size: 12px;
+}
+.top-right{
+  gap: 5px;
+}
+.top-right img{
+  width: 17px;
+}
+.circle-pic{
+  border-radius: 50%;
+} 
+}
+
+
+@media screen and (max-width:475px) {
+  header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+  }
+  .pic1{
+    width: 14px;
+    padding: 0;
+    padding-right: 6px;
+  }
+  .pic11{
+    width: 50px;
+    padding-left: 2px;
+  }
+  .top-middle{
+    border-radius: 50px;
+    width: 310px;
+    height: 25.5px;
+    margin: 0px 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(234, 241, 251);
+  }
+  .top-middle-inside{
+    width: 100%;
+  }
+  .pic2{
+    width: 10px;
+  }
+  .input-style{
+    height: 23px;
+    border: none;
+    width: 100%;
+    background-color: rgb(234, 241, 251);
+    padding-left: 4px;
+  }
+  .input-style:focus{
+    outline: none;
+  }
+  .input-style::placeholder{
+    font-size: 10px;
+  }
+  .top-right{
+    gap: 4px;
+  }
+  .top-right img{
+    width: 14px;
+  }
+  .circle-pic{
+    border-radius: 50%;
+  } 
+  .pic22{
+    width: 15px;
+  }
+}
+@media (min-width:1440px) and (max-width:3000px) {
+  .top-right{
+    padding-left: 220px;
+  }
+}
+@media (min-width:2100px) and (max-width:3000px) {
+  .top-middle{
+    width: 700px;
+  }
+  .top-right{
+    padding-left: 1050px;
+  }
+
+}
