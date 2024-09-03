@@ -66,7 +66,7 @@ document.write("sum of "+num1+" and "+num2+" is "+answer);
  document.write("<br>"+tempetatre_f+"oF is "+tempetatre_c+"oC");
 
 
- // -------------------------------- Quest/ion 06 --------------------------------
+ // -------------------------------- Quest/ion 07 --------------------------------
 var item1=50;
 var quentity1=100;
 var item2=80;
@@ -81,7 +81,7 @@ document.write("<br>Price of item 2 is "+item2);
 document.write("<br>Quentity of item 2 is "+quentity2);
 document.write("<br><br>Total cost of your order is "+total_cost);
 
- // -------------------------------- Quest/ion 07 --------------------------------
+ // -------------------------------- Quest/ion 08 --------------------------------
 var total_marks=150;
 var obtained_marks=80;
 
@@ -92,7 +92,7 @@ document.write("<br>Total marks: "+total_marks);
 document.write("<br>Obtained marks: "+obtained_marks);
 document.write("<br>Percetage: "+percentage+"%");
 
- // -------------------------------- Quest/ion 08 --------------------------------
+ // -------------------------------- Quest/ion 09 --------------------------------
 var doller=10;
 var riyal=25;
 var total_pkr=(doller*104.80)+(riyal*28);
@@ -101,8 +101,48 @@ document.write("<br><br><h2>Currecy in PKR</h2>");
 document.write("<br>Total Currecy in PKR: "+total_pkr);
 
 
+ // -------------------------------- Quest/ion 10 --------------------------------
+
+var number = 4;
+var result = ((number+5)*10)/2;
+document.write("<br><br><h2> +,* and / in single expression</h2>")
+document.write("<br>The result of +,* and / in single expression is: "+result );
 
 
+ // -------------------------------- Quest/ion 11 --------------------------------
+
+ var current_year = 2024;
+ var birth_year = 2004;
+ var age=current_year-birth_year;
+ document.write("<br><br><h2> Age Calclator</h2>")
+document.write("<br>Current year: ",current_year );
+document.write("<br>Birth year: ",birth_year );
+document.write("<br>Age: ",age );
+
+ // -------------------------------- Quest/ion 12 --------------------------------
+var radius=20;
+var pi=3.142;
+var circumference_of_c = 2*pi*radius;
+var area_of_c = pi*radius*radius;
+
+document.write("<br><br><h2> The Geoetrizer</h2>")
+document.write("<br>Radius of a circle: ",radius );
+document.write("<br>Te circumferece is: ",circumference_of_c );
+document.write("<br>The area is: ",area_of_c );
 
 
+ // -------------------------------- Quest/ion 13 --------------------------------
 
+var snack=" Lays";
+var current_age = 15;
+var max_age = 65;
+var snack_per_day=3;
+var remaining_age=max_age-current_age;
+var eat_total=remaining_age*snack_per_day;
+
+document.write("<br><br><h2> The Lifetime Supply Calculator</h2>")
+document.write("<br>Favourite Snack: ",snack );
+document.write("<br>Current age: ",current_age );
+document.write("<br>Estimated Maximum Age: ",max_age );
+document.write("<br>Amount of snacks per day: ",snack_per_day );
+document.write("<br>You will need ",eat_total,snack,"to last you until the ripe old age of ",max_age);
