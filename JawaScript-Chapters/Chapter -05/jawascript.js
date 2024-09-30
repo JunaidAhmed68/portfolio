@@ -39,7 +39,6 @@ document.write("sum of "+num1+" and "+num2+" is "+answer);
  var cost_of_buying=buying*ticket;
  document.write("<br><br>Total cost to buy "+buying+" tickets to a movie is "+cost_of_buying+"PKR")
 
-
  // -------------------------------- Quest/ion 05 --------------------------------
  table=2;
  document.write("<br><br>Table of 2");

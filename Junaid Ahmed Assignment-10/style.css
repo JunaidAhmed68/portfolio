@@ -1,0 +1,159 @@
+/* -----------------------------> font <------------------------------------------------ */
+
+@font-face {
+  font-family: samS;
+  src: url(./fots/SamsungOne-400.ttf);
+}
+/* -----------------------------> css for body <------------------------------------------------ */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: samS;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  opacity: 200%;
+}
+#body1 {
+  background-image: url(./bg-img/moonrise-blue-sky-mountains-snow-covered-lake-landscape-3840x2160-3838.jpg);
+}
+#body2 {
+  background-image: url(./bg-img/fronalpstock-3840x2160-10985.jpg);
+}
+#body3 {
+  background-image: url(./bg-img/valley-de-yosemite-yosemite-national-park-landmark-3840x2160-4072.jpg);
+}
+#body4 {
+  background-image: url(./bg-img/beach-sunset-seascape-evening-dusk-ocean-3840x2160-281.jpg);
+}
+#body5 {
+  background-image: url(./bg-img/sunset-silhouette-beach-clear-sky-seascape-ocean-horizon-3840x2160-3896.jpg);
+}
+/* -----------------------------> css for clock <------------------------------------------------ */
+
+.Time {
+  position: relative;
+  height: auto;
+  /* width: 400px; */
+  padding: 20px 30px;
+  color: rgb(255, 255, 255);
+  font-size: 4rem;
+  /* background-color:rgb(0, 0, 0); */
+
+  background: rgba(88, 83, 83, 0);
+  border: 1px solid rgba(255, 255, 255, 0.016);
+  z-index: 1000;
+  backdrop-filter: blur(20px);
+  border-radius: 18px;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Times New Roman", Times, serif;
+}
+.timeOnly {
+  margin: 12px 0px;
+}
+.dateInNum {
+  font-size: 2rem;
+  font-family: Times;
+}
+#PAm {
+  font-size: 1.5rem;
+}
+/* -----------------------------> media querry <------------------------------------------------ */
+@media (max-width: 550px) {
+  .Time {
+    font-size: 45px;
+    padding: 10px;
+    height: auto;
+    width: 260px;
+    border-radius: 10px;
+  }
+  .dateInNum {
+    font-size: 25px;
+  }
+  #PAm {
+    font-size: 20px;
+  }
+  body {
+    align-items: start;
+    padding-top: 80px;
+  }
+  #sec,
+  #dot,
+  #zero3 {
+    display: none;
+  }
+}
+@media (max-width: 350px) {
+  .Time {
+    font-size: 35px;
+    padding: 10px;
+    height: auto;
+    border-radius: 10px;
+  }
+
+  .dateInNum {
+    font-size: 18px;
+  }
+  #PAm {
+    font-size: 15px;
+  }
+  body {
+    align-items: start;
+    padding-top: 80px;
+  }
+}
+@media (min-width: 551px) and (max-width: 850px) {
+  .Time {
+    font-size: 50px;
+    height: auto;
+    border-radius: 10px;
+  }
+  .dateInNum {
+    font-size: 19px;
+  }
+  #PAm {
+    font-size: 20px;
+  }
+}
+@media (min-width: 1500px) and (max-width: 1900px) {
+  .Time {
+    height: 500px;
+    padding: 80px 80px;
+    padding: 30px 40px;
+    font-size: 7rem;
+  }
+  .dateInNum {
+    font-size: 4rem;
+    font-family: Times;
+  }
+  #PAm {
+    font-size: 4rem;
+  }
+}
+@media (min-width: 1901px) {
+  .Time {
+    height: 500px;
+    padding: 80px 80px;
+    font-size: 10rem;
+  }
+  .dateInNum {
+    font-size: 4rem;
+    font-family: Times;
+  }
+  #PAm {
+    font-size: 4rem;
+  }
+}
+/* -----------------------------> media querry end <------------------------------------------------ */
