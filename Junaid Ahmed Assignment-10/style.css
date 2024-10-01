@@ -146,14 +146,14 @@ body {
   .Time {
     height: 500px;
     padding: 80px 80px;
-    font-size: 9rem;
+    font-size: 8rem;
   }
   .dateInNum {
-    font-size: 4rem;
+    font-size: 2rem;
     font-family: Times;
   }
   #PAm {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 }
 /* -----------------------------> media querry end <------------------------------------------------ */
