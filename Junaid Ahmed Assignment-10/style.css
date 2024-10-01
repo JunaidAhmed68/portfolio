@@ -132,7 +132,7 @@ body {
     height: 500px;
     padding: 80px 80px;
     padding: 30px 40px;
-    font-size: 9rem;
+    font-size: 7rem;
   }
   .dateInNum {
     font-size: 5rem;
@@ -146,7 +146,7 @@ body {
   .Time {
     height: 500px;
     padding: 80px 80px;
-    font-size: 2rem;
+    font-size: 9rem;
   }
   .dateInNum {
     font-size: 4rem;
