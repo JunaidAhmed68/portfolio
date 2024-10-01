@@ -45,7 +45,7 @@ body {
   /* width: 400px; */
   padding: 20px 30px;
   color: rgb(255, 255, 255);
-  font-size: 4rem;
+  font-size: 7rem;
   /* background-color:rgb(0, 0, 0); */
 
   background: rgba(120, 118, 118, 0.314);
@@ -64,11 +64,11 @@ body {
   margin: 12px 0px;
 }
 .dateInNum {
-  font-size: 2rem;
+  font-size: 4rem;
   font-family: Times;
 }
 #PAm {
-  font-size: 1.5rem;
+  font-size: 3rem;
 }
 /* -----------------------------> media querry <------------------------------------------------ */
 @media (max-width: 550px) {
@@ -129,8 +129,7 @@ body {
 }
 @media (min-width: 1500px) and (max-width: 1900px) {
   .Time {
-    height: 400px;
-    width: 1100px;
+    height: 500px;
     padding: 80px 80px;
     padding: 30px 40px;
     font-size: 9rem;
@@ -145,10 +144,9 @@ body {
 }
 @media (min-width: 1901px) {
   .Time {
-    height: 400px;
-    width: 1300px;
+    height: 500px;
     padding: 80px 80px;
-    font-size: 12rem;
+    font-size: 14rem;
   }
   .dateInNum {
     font-size: 5rem;
