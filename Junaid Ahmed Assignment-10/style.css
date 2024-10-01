@@ -129,7 +129,7 @@ body {
 }
 @media (min-width: 1500px) and (max-width: 1900px) {
   .Time {
-    height: 500px;
+    height: auto;
     padding: 80px 80px;
     padding: 30px 40px;
     font-size: 7rem;
@@ -144,7 +144,7 @@ body {
 }
 @media (min-width: 1901px) {
   .Time {
-    height: 500px;
+    height: auto;
     padding: 80px 80px;
     font-size: 8rem;
   }
