@@ -97,7 +97,7 @@ th {
     font-size: 12px;
   }
 }
-@media (min-width: 1400px) and (max-width: 1900px) {
+@media (min-width: 1400px) {
   th {
     font-size: 1.2rem;
     padding: 10px;
@@ -105,7 +105,7 @@ th {
 
   .MarksheetH {
     font-size: 2rem;
-    padding: 12px;
+    padding: 10px;
   }
 
   td {
@@ -113,7 +113,7 @@ th {
     padding: 10px;
   }
 }
-@media (min-width: 1910px) {
+/* @media (min-width: 1910px) {
   th {
     font-size: 2rem;
     padding: 25px;
@@ -129,3 +129,4 @@ th {
     padding: 10px;
   }
 }
+ */
