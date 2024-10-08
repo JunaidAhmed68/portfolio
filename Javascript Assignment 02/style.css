@@ -13,21 +13,26 @@ body {
 table {
   border-spacing: 0;
   border: 1px solid black;
+  
 }
 td {
   border: 0.5px solid black;
   text-align: center;
-  padding: 8px;}
+  padding: 8px;
+  font-size:18px;
+}
 th {
   padding: 8px;
   background-color: rgb(252, 206, 144);
   font-family: "Times New Roman", Times, serif;
+  font-size:20px;
 }
 .MarksheetH {
   text-align: center;
   padding: 10px;
   background-color: rgb(141, 133, 121);
   color: white;
+  font-size:25px;
 }
 .color {
   color: black;
