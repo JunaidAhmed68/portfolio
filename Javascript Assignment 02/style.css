@@ -1,0 +1,131 @@
+* {
+  font-family: Helvetica;
+  font-size: 19px;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(252, 249, 219);
+}
+
+table {
+  border-spacing: 0;
+  border: 1px solid black;
+}
+td {
+  border: 0.5px solid black;
+  text-align: center;
+  padding: 8px;
+  font-size: 15px;
+}
+th {
+  padding: 8px;
+  font-size: 18px;
+  background-color: rgb(252, 206, 144);
+  font-family: "Times New Roman", Times, serif;
+}
+.MarksheetH {
+  text-align: center;
+  padding: 10px;
+  font-size: 22px;
+  background-color: rgb(141, 133, 121);
+  color: white;
+}
+.color {
+  color: black;
+}
+.creamColor {
+  background-color: beige;
+}
+.blue {
+  background-color: rgba(147, 181, 239, 0.688);
+}
+.green {
+  background-color: rgba(142, 250, 10, 0.688);
+}
+.red {
+  background-color: rgba(246, 26, 26, 0.688);
+}
+.goodColor {
+  background-color: rgba(142, 250, 10, 0.688);
+  font-family: Arial;
+  font-style: italic;
+  font-weight: 600;
+}
+.badColor {
+  background-color: rgba(246, 26, 26, 0.688);
+  font-family: Arial;
+  font-style: italic;
+  font-weight: 600;
+}
+/* --------------------------------- media querries------------------------------------------------- */
+@media (max-width: 430px) {
+  th {
+    font-size: 10px;
+    padding: 8px;
+  }
+
+  .MarksheetH {
+    font-size: 13px;
+    padding: 10px;
+  }
+  td {
+    font-size: 10px;
+    padding: 8px;
+  }
+}
+
+@media (min-width: 461px) and (max-width: 900px) {
+  body {
+    padding: 10px;
+    align-items: start;
+  }
+  th {
+    font-size: 13px;
+    padding: 5px;
+  }
+
+  .MarksheetH {
+    font-size: 15px;
+    padding: 5px;
+  }
+
+  td {
+    font-size: 12px;
+  }
+}
+@media (min-width: 1400px) and (max-width: 1900px) {
+  th {
+    font-size: 1.2rem;
+    padding: 10px;
+  }
+
+  .MarksheetH {
+    font-size: 2rem;
+    padding: 12px;
+  }
+
+  td {
+    font-size: 1rem;
+    padding: 10px;
+  }
+}
+@media (min-width: 1910px) {
+  th {
+    font-size: 2rem;
+    padding: 25px;
+  }
+
+  .MarksheetH {
+    font-size: 3rem;
+    padding: 30px 5px;
+  }
+
+  td {
+    font-size: 2rem;
+    padding: 10px;
+  }
+}
