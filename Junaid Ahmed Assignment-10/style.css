@@ -129,10 +129,10 @@ body {
 }
 @media (min-width: 1500px) and (max-width: 1900px) {
   .Time {
-    height: 500px;
+    height: auto;
     padding: 80px 80px;
     padding: 30px 40px;
-    font-size: 9rem;
+    font-size: 7rem;
   }
   .dateInNum {
     font-size: 5rem;
@@ -144,16 +144,16 @@ body {
 }
 @media (min-width: 1901px) {
   .Time {
-    height: 500px;
+    height: auto;
     padding: 80px 80px;
-    font-size: 14rem;
+    font-size: 8rem;
   }
   .dateInNum {
-    font-size: 4rem;
+    font-size: 2rem;
     font-family: Times;
   }
   #PAm {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 }
 /* -----------------------------> media querry end <------------------------------------------------ */
