@@ -6,8 +6,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-/*   width: 100vw;
-  height: 100vh; */
+  width: 100vw;
+  height: 100vh;
   background-color: rgb(252, 249, 219);
 }
 
@@ -18,19 +18,15 @@ table {
 td {
   border: 0.5px solid black;
   text-align: center;
-  padding: 8px;
-  font-size: 15px;
-}
+  padding: 8px;}
 th {
   padding: 8px;
-  font-size: 18px;
   background-color: rgb(252, 206, 144);
   font-family: "Times New Roman", Times, serif;
 }
 .MarksheetH {
   text-align: center;
   padding: 10px;
-  font-size: 22px;
   background-color: rgb(141, 133, 121);
   color: white;
 }
