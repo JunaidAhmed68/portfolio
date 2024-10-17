@@ -18,4 +18,4 @@ function changeImg(value) {
     image.setAttribute("src", picLinks[count]);
 }
 
-setInterval(() => changeImg("+"), 2000);
+setInterval(() => changeImg(), 2000);
