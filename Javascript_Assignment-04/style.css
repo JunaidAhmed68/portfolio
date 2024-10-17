@@ -1,0 +1,42 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.slider{
+  display: flex;
+}
+body{
+  background-color: gray;
+}
+#img{
+  width: 80%;
+  height: 500px;
+  margin: auto;
+  margin-top: 20px;
+}
+.plus{
+  padding-right:40px ;
+  padding-left: 10px;
+}
+.minus{
+  padding-left: 40px;
+  padding-right: 10px;
+}
+button{
+  background-color: rgb(79, 75, 75);
+  color: white;
+  font-size: 25px;
+  border: none;
+  flex-grow: 1;
+  height: 500px;
+  margin-top: 20px;
+}
+button:hover{
+  opacity: 90%;
+  background-color: rgb(48, 47, 47);
+}
+button:active{
+  opacity: 120%;
+  background-color: rgb(17, 16, 16);
+}
