@@ -11,7 +11,7 @@ body{
 }
 #img{
   width: 80%;
-  height: 500px;
+  height: 100vh;
   margin: auto;
   margin-top: 20px;
 }
@@ -29,7 +29,7 @@ button{
   font-size: 25px;
   border: none;
   flex-grow: 1;
-  height: 500px;
+  height: 100vh;
   margin-top: 20px;
 }
 button:hover{
