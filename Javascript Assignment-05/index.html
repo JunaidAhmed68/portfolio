@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Dice Game</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="super">
+      <!-- span -->
+      <p>Player 1:<button id="Tvalue1">Head/Tail</button></p>
+      <p>Player 2:<button id="Tvalue2">Head/Tail</button></p>
+      <!-- span -->
+
+      <button onclick="toss()" id="Toss">Toss</button>
+      <div id="main">
+        <!-- span -->
+        <button id="pl">player's turns</button>
+        <!-- span -->
+        <br />
+        <br />
+        <p id="result1"></p>
+        <br />
+        <br />
+        <div id="before"></div>
+        <!-- span -->
+
+        <button id="anotherP1"></button>
+        <!-- span -->
+        <br />
+        <br />
+        <button id="roll1" onclick="rollDice(1)">Roll 1</button>
+        <button id="roll2" onclick="rollDice(2)">Roll 2</button>
+        <br />
+        <br />
+        <button id="dice1" onclick="rollDice(1) " style="margin-right: 30px">
+          .
+        </button>
+        <button id="dice2" onclick="rollDice(2)">.</button>
+        <br />
+        <br />
+        <button id="anotherP" onclick="anotherP()">
+          Click foranother Player's Turn
+        </button>
+        <p id="result2"></p>
+        <br />
+        <br />
+        <a href="./index.html"><button id="playAg">Play again</button></a>
+      </div>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>

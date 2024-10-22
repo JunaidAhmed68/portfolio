@@ -1,0 +1,43 @@
+p {
+  display: inline;
+  color: white;
+}
+#before,
+#anotherP,
+#anotherP1,
+#main,
+#dice1,
+#dice2,
+#playAg {
+  display: none;
+}
+#after,
+#anotherP2,
+#anotherP3,
+#main1,
+#dice12,
+#dice23,
+#playAg1 {
+  display: inline;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 18px;
+}
+button {
+  font-size: 18px;
+}
+.super {
+  background-color: black;
+  width: 400px;
+  height: auto;
+  padding: 20px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 10px;
+}
